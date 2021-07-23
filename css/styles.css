@@ -8,7 +8,8 @@ body {
  header{
    height:160px;
    /* background: radial-gradient(#FFF,#FFEFD5); */
-   background: radial-gradient(#FFF,#FFDEAD);	
+   /* background: radial-gradient(#FFF,#FFDEAD);	 */
+   background: radial-gradient(#fff,#FFC7AF);
   }
 
  .header-title{
@@ -18,16 +19,17 @@ body {
  }
 
 .header-title img{
-  width:64px;
-  height:64px;
+  margin-top:24px;
+  width:56px;
+  height:56px;
  }
 
 .header-title h1{
   color:#660000;
   margin:0;
-  font-size:40px;
+  font-size:24px;
   margin-top:24px;
-  margin-left:40px;
+  margin-left:32px;
 }
 
 #nav {
@@ -43,9 +45,9 @@ body {
 #nav h2 {
   font-weight: normal;
   color:#660000;
-  font-size: 16px;
+  font-size: 10px;
   margin:0;
-  margin-right:16px;
+  margin-right:14px;
 
 }
 
@@ -53,18 +55,18 @@ body {
   padding:0;
   margin:0;
   padding-right:8px;
-  width:100px;
+  width:60px;
 }
 
 #nav li a {
-  font-size: 16px;
+  font-size: 12px;
   text-decoration: none;
   /* background:#FFDDFF; */
   background-color: white;
   color:#660000;
   border:1px solid #555555
   display: block;
-  padding:8px;
+  padding:4px;
   font-weight: bold;
   border-radius: 4px;
 }
@@ -81,8 +83,8 @@ main{
   border-bottom:2px solid #333333;
 }
 .top img{
-  width:56px;
-  height:56px;
+  width:48px;
+  height:48px;
   padding-left:16px;
   padding-top:16px;
 }
@@ -95,13 +97,13 @@ main{
 }
 
 .top-title h2{
-  font-size: 32px;
+  font-size: 16px;
   margin:0;
   margin-top:16px;
 }
 
 .top p{
-  font-size:12px;
+  font-size:16px;
 }
 
 /* ０～２歳向け絵本 */
@@ -114,15 +116,15 @@ main{
 .introduction-1 h1{
   color:#FF82B2;
   text-align: center;
-  font-size:32px;
+  font-size:22px;
   margin:0;
-  margin-top: 24px;
+  margin-top: 40px;
   margin-bottom:24px;
 }
 
 .sub-title img{
-  width:64px;
-  height:64px;
+  width:48px;
+  height:48px;
   padding-left:16px;
 }
 
@@ -130,11 +132,12 @@ main{
   border:6px solid #FF82B2;
   border-radius: 24px;
   text-align: center; 
+  margin-top: 20px;
 }
 
 .booklist-1 img{
-  width: 500px;
-  height:500px;
+  width: 250px;
+  height:250px;
   object-fit: cover;
   margin:48px;
 }
@@ -143,8 +146,8 @@ main{
   margin:0 auto;
   color: #333333;
   border-bottom: 4px dotted #333333;
-  width:880px;
-  font-size: 18px;
+  width:90%;
+  font-size: 20px;
 }
 
 .booklist-1 ul{
@@ -152,17 +155,15 @@ main{
   color: #333333;
   text-align: left;
   font-size:14px;
-  background:radial-gradient(#FFF,#FFEFD5);
+  background:radial-gradient(#FFF,#FFC7AF);
   /* background-color: #FFEFD5; */
-  width:880px;
-  margin:0 auto;
+  margin:0
   margin-top:16px;
 }
 
 
 .booklist-1 p{
   font-size:14px;
-  /* font-size: 12px; */
   margin:16px;
   text-align: left;
   
@@ -172,21 +173,21 @@ main{
 .introduction-2 h1{
   color:#CD5C5C;
   text-align: center;
-  font-size:32px;
-  /* margin:0;
-  margin-top: 24px;
-  margin-bottom:24px; */
+  font-size:22px;
+  margin-top: 40px;
+  margin-bottom:24px;
 }
 
 .booklist-2 {
   border:6px solid #CD5C5C;
   border-radius: 24px;
   text-align: center; 
+  margin-top: 20px;
 }
 
 .booklist-2 img{
-  width: 500px;
-  height:500px;
+  width: 250px;
+  height:250px;
   object-fit: cover;
   margin:48px;
 }
@@ -195,8 +196,8 @@ main{
   margin:0 auto;
   color: #333333;
   border-bottom: 4px dotted #333333;
-  width:880px;
-  font-size: 18px;
+  width:90%;
+  font-size: 20px;
 }
 
 .booklist-2 ul{
@@ -204,17 +205,15 @@ main{
   color: #333333;
   text-align: left;
   font-size:14px;
-  background:radial-gradient(#FFF,#FFEFD5);
+  background:radial-gradient(#FFF,#FFC7AF);
   /* background-color: #FFEFD5; */
-  width:880px;
-  margin:0 auto;
+  margin:0;
   margin-top:16px;
 }
 
 
 .booklist-2 p{
   font-size:14px;
-  /* font-size: 12px; */
   margin:16px;
   text-align: left;
   
@@ -223,21 +222,21 @@ main{
 .introduction-3 h1{
   color:#A16EFF;
   text-align: center;
-  font-size:32px;
-  /* margin:0;
-  margin-top: 24px;
-  margin-bottom:24px; */
+  font-size:22px;
+  margin-top: 40px;
+  margin-bottom:24px;
 }
 
 .booklist-3 {
   border:6px solid #A16EFF;
   border-radius: 24px;
   text-align: center; 
+  margin-top: 20px;
 }
 
 .booklist-3 img{
-  width: 500px;
-  height:500px;
+  width: 250px;
+  height:250px;
   object-fit: cover;
   margin:48px;
 }
@@ -246,8 +245,8 @@ main{
   margin:0 auto;
   color: #333333;
   border-bottom: 4px dotted #333333;
-  width:880px;
-  font-size: 18px;
+  width:90%;
+  font-size: 20px;
 }
 
 .booklist-3 ul{
@@ -255,17 +254,15 @@ main{
   color: #333333;
   text-align: left;
   font-size:14px;
-  background:radial-gradient(#FFF,#FFEFD5);
+  background:radial-gradient(#FFF,#FFC7AF);
   /* background-color: #FFEFD5; */
-  width:880px;
-  margin:0 auto;
+  margin:0;
   margin-top:16px;
 }
 
 
 .booklist-3 p{
   font-size:14px;
-  /* font-size: 12px; */
   margin:16px;
   text-align: left;
   
@@ -273,3 +270,72 @@ main{
 
 
 /* フッター */
+footer{
+  height:200px;
+  /* background: radial-gradient(#FFF,#FFEFD5); */
+  /* background: radial-gradient(#FFF,#FFDEAD);	 */
+  /* background:#FFDEAD; */
+  /* background:#FFAD90; */
+  background: #FFC7AF;
+ }
+
+ .footer-contents{
+   height:200px;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ footer h1{
+  color:#660000;
+  margin:0;
+  font-weight:normal;
+  font-size:22px;
+  margin-left:20px;
+  padding:16px;
+}
+
+footer h2{
+  font-weight: normal;
+  font-size:10px;
+  color:#660000;
+  margin:0;
+  margin-top:10px;
+  margin-right:40px;
+  margin-bottom: 8px;
+}
+
+footer ul{
+  display:flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+footer li {
+  list-style: none;
+  /* padding:8px; */
+  font-weight: bold;
+  border-radius: 4px;
+  margin:8px;
+
+}
+
+footer li a{
+  color:#660000;
+  text-decoration: none;
+  background-color: white;
+  display: block;
+  padding:4px;
+  font-size:12px;
+  width:60px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+
+}
+
+
+
+
+
+
