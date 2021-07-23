@@ -1,0 +1,275 @@
+body {
+  margin:0;
+  background: #fff;
+  font-family: Verdana, 'Arial Black', メイリオ, sans-serif;
+ }
+
+ /* ヘッダー */
+ header{
+   height:160px;
+   /* background: radial-gradient(#FFF,#FFEFD5); */
+   background: radial-gradient(#FFF,#FFDEAD);	
+  }
+
+ .header-title{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.header-title img{
+  width:64px;
+  height:64px;
+ }
+
+.header-title h1{
+  color:#660000;
+  margin:0;
+  font-size:40px;
+  margin-top:24px;
+  margin-left:40px;
+}
+
+#nav {
+  list-style: none;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin:0;
+  padding:0;
+  margin-top:24px;
+}
+
+#nav h2 {
+  font-weight: normal;
+  color:#660000;
+  font-size: 16px;
+  margin:0;
+  margin-right:16px;
+
+}
+
+#nav li{
+  padding:0;
+  margin:0;
+  padding-right:8px;
+  width:100px;
+}
+
+#nav li a {
+  font-size: 16px;
+  text-decoration: none;
+  /* background:#FFDDFF; */
+  background-color: white;
+  color:#660000;
+  border:1px solid #555555
+  display: block;
+  padding:8px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+
+
+/* メイン */
+main{
+  margin:16px;
+}
+
+.top{
+  color:#333333;
+  border-bottom:2px solid #333333;
+}
+.top img{
+  width:56px;
+  height:56px;
+  padding-left:16px;
+  padding-top:16px;
+}
+
+.top-title{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100px;
+}
+
+.top-title h2{
+  font-size: 32px;
+  margin:0;
+  margin-top:16px;
+}
+
+.top p{
+  font-size:12px;
+}
+
+/* ０～２歳向け絵本 */
+.sub-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction-1 h1{
+  color:#FF82B2;
+  text-align: center;
+  font-size:32px;
+  margin:0;
+  margin-top: 24px;
+  margin-bottom:24px;
+}
+
+.sub-title img{
+  width:64px;
+  height:64px;
+  padding-left:16px;
+}
+
+.booklist-1 {
+  border:6px solid #FF82B2;
+  border-radius: 24px;
+  text-align: center; 
+}
+
+.booklist-1 img{
+  width: 500px;
+  height:500px;
+  object-fit: cover;
+  margin:48px;
+}
+
+.booklist-1 h3{
+  margin:0 auto;
+  color: #333333;
+  border-bottom: 4px dotted #333333;
+  width:880px;
+  font-size: 18px;
+}
+
+.booklist-1 ul{
+  list-style: none;
+  color: #333333;
+  text-align: left;
+  font-size:14px;
+  background:radial-gradient(#FFF,#FFEFD5);
+  /* background-color: #FFEFD5; */
+  width:880px;
+  margin:0 auto;
+  margin-top:16px;
+}
+
+
+.booklist-1 p{
+  font-size:14px;
+  /* font-size: 12px; */
+  margin:16px;
+  text-align: left;
+  
+}
+
+/* ３～４歳向け絵本 */
+.introduction-2 h1{
+  color:#CD5C5C;
+  text-align: center;
+  font-size:32px;
+  /* margin:0;
+  margin-top: 24px;
+  margin-bottom:24px; */
+}
+
+.booklist-2 {
+  border:6px solid #CD5C5C;
+  border-radius: 24px;
+  text-align: center; 
+}
+
+.booklist-2 img{
+  width: 500px;
+  height:500px;
+  object-fit: cover;
+  margin:48px;
+}
+
+.booklist-2 h3{
+  margin:0 auto;
+  color: #333333;
+  border-bottom: 4px dotted #333333;
+  width:880px;
+  font-size: 18px;
+}
+
+.booklist-2 ul{
+  list-style: none;
+  color: #333333;
+  text-align: left;
+  font-size:14px;
+  background:radial-gradient(#FFF,#FFEFD5);
+  /* background-color: #FFEFD5; */
+  width:880px;
+  margin:0 auto;
+  margin-top:16px;
+}
+
+
+.booklist-2 p{
+  font-size:14px;
+  /* font-size: 12px; */
+  margin:16px;
+  text-align: left;
+  
+}
+/* ５～６歳向け絵本 */
+.introduction-3 h1{
+  color:#A16EFF;
+  text-align: center;
+  font-size:32px;
+  /* margin:0;
+  margin-top: 24px;
+  margin-bottom:24px; */
+}
+
+.booklist-3 {
+  border:6px solid #A16EFF;
+  border-radius: 24px;
+  text-align: center; 
+}
+
+.booklist-3 img{
+  width: 500px;
+  height:500px;
+  object-fit: cover;
+  margin:48px;
+}
+
+.booklist-3 h3{
+  margin:0 auto;
+  color: #333333;
+  border-bottom: 4px dotted #333333;
+  width:880px;
+  font-size: 18px;
+}
+
+.booklist-3 ul{
+  list-style: none;
+  color: #333333;
+  text-align: left;
+  font-size:14px;
+  background:radial-gradient(#FFF,#FFEFD5);
+  /* background-color: #FFEFD5; */
+  width:880px;
+  margin:0 auto;
+  margin-top:16px;
+}
+
+
+.booklist-3 p{
+  font-size:14px;
+  /* font-size: 12px; */
+  margin:16px;
+  text-align: left;
+  
+}
+
+
+/* フッター */
