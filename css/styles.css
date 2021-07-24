@@ -6,6 +6,7 @@ body {
 
  /* ヘッダー */
  header{
+   width:100%;
    height:160px;
    /* background: radial-gradient(#FFF,#FFEFD5); */
    /* background: radial-gradient(#FFF,#FFDEAD);	 */
@@ -70,6 +71,11 @@ body {
   padding:4px;
   font-weight: bold;
   border-radius: 4px;
+  transition:.3s;
+}
+
+#nav li a:hover{
+  background-color:#FFC7AF
 }
 
 
@@ -270,8 +276,24 @@ main{
   font-size:16px;
   margin:16px;
   text-align: left;
-  line-height: 1.79;
-  
+  line-height: 1.79;  
+}
+ 
+
+.button img{
+  width:48px;
+  height:48px;
+  margin-left:90%;
+  margin-top:16px;
+  position:fixed;
+  right:5%;
+  bottom:5%;
+  transition:1s;
+  opacity:0.6;
+}
+
+.button img:hover{
+  opacity:1;
 }
 
 
@@ -338,12 +360,32 @@ footer li a{
   text-align: center;
   font-weight: bold;
   border-radius: 4px;
+  transition:.3s;
+}
 
+footer li a:hover{
+  background-color:#FFC7AF
 }
 
 /* レスポンシブ（大きい画面） */
 @media (min-width: 900px) {
 
+/* レスポンシブヘッダー */
+
+  #nav h2 {
+    font-size: 16px;
+  }
+
+  #nav li{
+    width:100px;
+  }
+
+  #nav li a {
+    font-size: 16px;
+    padding:8px;
+  }
+
+/* レスポンシブメイン */
 .top p{
  text-align: center;
 
