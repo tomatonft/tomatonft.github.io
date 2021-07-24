@@ -40,6 +40,7 @@ body {
   margin:0;
   padding:0;
   margin-top:24px;
+  margin-right: 8%;
 }
 
 #nav h2 {
@@ -154,7 +155,8 @@ main{
   list-style: none;
   color: #333333;
   text-align: left;
-  font-size:14px;
+  font-size:16px;
+  line-height: 1.79;
   background:radial-gradient(#FFF,#FFC7AF);
   /* background-color: #FFEFD5; */
   margin:0
@@ -163,10 +165,10 @@ main{
 
 
 .booklist-1 p{
-  font-size:14px;
+  font-size:16px;
   margin:16px;
   text-align: left;
-  
+  line-height: 1.79;
 }
 
 /* ３～４歳向け絵本 */
@@ -204,7 +206,8 @@ main{
   list-style: none;
   color: #333333;
   text-align: left;
-  font-size:14px;
+  font-size:16px;
+  line-height: 1.79;
   background:radial-gradient(#FFF,#FFC7AF);
   /* background-color: #FFEFD5; */
   margin:0;
@@ -213,9 +216,10 @@ main{
 
 
 .booklist-2 p{
-  font-size:14px;
+  font-size:16px;
   margin:16px;
   text-align: left;
+  line-height: 1.79;
   
 }
 /* ５～６歳向け絵本 */
@@ -253,7 +257,8 @@ main{
   list-style: none;
   color: #333333;
   text-align: left;
-  font-size:14px;
+  font-size:16px;
+  line-height: 1.79;
   background:radial-gradient(#FFF,#FFC7AF);
   /* background-color: #FFEFD5; */
   margin:0;
@@ -262,9 +267,10 @@ main{
 
 
 .booklist-3 p{
-  font-size:14px;
+  font-size:16px;
   margin:16px;
   text-align: left;
+  line-height: 1.79;
   
 }
 
@@ -291,7 +297,7 @@ footer{
   margin:0;
   font-weight:normal;
   font-size:22px;
-  margin-left:20px;
+  margin-left:8%;
   padding:16px;
 }
 
@@ -309,6 +315,7 @@ footer ul{
   display:flex;
   flex-direction: column;
   align-content: space-between;
+  margin-right: 8%;
 }
 
 footer li {
@@ -334,8 +341,93 @@ footer li a{
 
 }
 
+/* レスポンシブ（大きい画面） */
+@media (min-width: 900px) {
 
+.top p{
+ text-align: center;
 
+}
 
+/* レスポンシブ０～２歳向け絵本 */
+.introduction-1{
+  width:72%;
+  margin:0 auto;
+}
 
+.booklist-title{
+ display:flex;
+ justify-content: center;
+ flex-direction:row-reverse;
+ align-items: center;
+ border-bottom: 4px dotted #333333;
+}
 
+.booklist-title img{
+  margin:32px;
+}
+
+.booklist-1 h3{
+ border-bottom:none;
+ margin:0;
+ width:250px;
+ margin-right: 20px;
+
+}
+
+.booklist-1 ul{
+  margin:0;
+
+}
+
+.booklist-1 li:first-child {
+  margin-top:16px;
+}
+
+/* レスポンシブ３～４歳向け絵本 */
+
+.introduction-2{
+  width:72%;
+  margin:0 auto;
+}
+
+.booklist-2 h3{
+ border-bottom:none;
+ margin:0;
+ width:250px;
+ margin-right: 20px;
+
+}
+
+.booklist-2 ul{
+  margin:0;
+
+}
+
+.booklist-2 li:first-child {
+  margin-top:16px;
+}
+
+/* レスポンシブ５～６歳向け絵本 */
+
+.introduction-3{
+  width:72%;
+  margin:0 auto;
+}
+
+.booklist-3 h3{
+ border-bottom:none;
+ margin:0;
+ width:250px;
+ margin-right: 20px;
+
+}
+
+.booklist-3 ul{
+  margin:0;
+
+}
+
+.booklist-3 li:first-child {
+  margin-top:16px;
+}
