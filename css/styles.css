@@ -149,6 +149,10 @@ main{
   margin:48px;
 }
 
+.booklist-1 img:hover{
+  opacity:0.7;
+}
+
 .booklist-1 h3{
   margin:0 auto;
   color: #333333;
@@ -156,6 +160,15 @@ main{
   width:90%;
   font-size: 20px;
 }
+
+.booklist-title a{
+  color:#333333;
+}
+.booklist-title a:hover{
+  color:#FF6666;
+}
+
+
 
 .booklist-1 ul{
   list-style: none;
@@ -198,6 +211,10 @@ main{
   height:250px;
   object-fit: cover;
   margin:48px;
+}
+
+.booklist-2 img:hover{
+  opacity:0.7;
 }
 
 .booklist-2 h3{
@@ -249,6 +266,10 @@ main{
   height:250px;
   object-fit: cover;
   margin:48px;
+}
+
+.booklist-3 img:hover{
+  opacity:0.7;
 }
 
 .booklist-3 h3{
