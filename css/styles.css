@@ -82,7 +82,10 @@ body {
   background-color:#FFC7AF
 }
 
-
+#nav li a:active{
+  position:relative;
+  top:4px;
+}
 
 /* メイン */
 main{
@@ -162,6 +165,13 @@ main{
   opacity:0.7;
 }
 
+.booklist-1 img:active {
+  box-shadow: none;
+  position:relative;
+  left:10px;
+  top:5px;
+}
+
 .booklist-1 h3{
   margin:0 auto;
   color: #333333;
@@ -231,6 +241,13 @@ main{
   opacity:0.7;
 }
 
+.booklist-2 img:active {
+  box-shadow: none;
+  position:relative;
+  left:10px;
+  top:5px;
+}
+
 .booklist-2 h3{
   margin:0 auto;
   color: #333333;
@@ -286,6 +303,13 @@ main{
 
 .booklist-3 img:hover{
   opacity:0.7;
+}
+
+.booklist-3 img:active {
+  box-shadow: none;
+  position:relative;
+  left:10px;
+  top:5px;
 }
 
 .booklist-3 h3{
@@ -402,6 +426,11 @@ footer li a{
 
 footer li a:hover{
   background-color:#FFC7AF
+}
+
+footer li a:active{
+  position:relative;
+  top:4px;
 }
 
 /* レスポンシブ（大きい画面） */
