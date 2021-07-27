@@ -360,7 +360,7 @@ main{
 
 /* フッター */
 footer{
-  height:200px;
+  height:222px;
   /* background: radial-gradient(#FFF,#FFEFD5); */
   /* background: radial-gradient(#FFF,#FFDEAD);	 */
   /* background:#FFDEAD; */
@@ -431,6 +431,15 @@ footer li a:hover{
 footer li a:active{
   position:relative;
   top:4px;
+}
+
+.copyright{
+  margin:0 auto;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 6px;
+  font-size: 10px;
+  color:#660000;
 }
 
 /* レスポンシブ（大きい画面） */
