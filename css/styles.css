@@ -8,12 +8,10 @@ body {
  header{
    width:100%;
    height:160px;
-   /* background: radial-gradient(#FFF,#FFEFD5); */
-   /* background: radial-gradient(#FFF,#FFDEAD);	 */
    background: radial-gradient(#fff,#FFC7AF);
-   position: fixed; /* ウィンドウを基準に画面に固定 */
-    top: 0; /* 上下の固定位置を上から0pxにする */
-    left: 0; /* 左右の固定位置を左から0pxにする */
+   position: fixed; 
+    top: 0; 
+    left: 0; 
     z-index: 10;
   }
 
@@ -67,7 +65,6 @@ body {
 #nav li a {
   font-size: 12px;
   text-decoration: none;
-  /* background:#FFDDFF; */
   background-color: white;
   color:#660000;
   border:1px solid #555555
@@ -199,7 +196,6 @@ main{
   font-size:16px;
   line-height: 1.79;
   background:radial-gradient(#FFF,#FFC7AF);
-  /* background-color: #FFEFD5; */
   margin:0
   margin-top:16px;
 }
@@ -263,7 +259,6 @@ main{
   font-size:16px;
   line-height: 1.79;
   background:radial-gradient(#FFF,#FFC7AF);
-  /* background-color: #FFEFD5; */
   margin:0;
   margin-top:16px;
 }
@@ -327,7 +322,6 @@ main{
   font-size:16px;
   line-height: 1.79;
   background:radial-gradient(#FFF,#FFC7AF);
-  /* background-color: #FFEFD5; */
   margin:0;
   margin-top:16px;
 }
@@ -361,10 +355,6 @@ main{
 /* フッター */
 footer{
   height:222px;
-  /* background: radial-gradient(#FFF,#FFEFD5); */
-  /* background: radial-gradient(#FFF,#FFDEAD);	 */
-  /* background:#FFDEAD; */
-  /* background:#FFAD90; */
   background: #FFC7AF;
  }
 
